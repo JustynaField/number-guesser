@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Number Guesser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+
+    <header role="banner">
+      <h1><span class="num-color1">Number</span><span class="num-color2"> Guesser</span></h1>
+    </header>
+
+    <main role="main">
+      <input id="input" type="number" min="1" max="100" placeholder=" Enter your guess" aria-label="A field to enter a number between 1 and 100." aria-required="true">
+
+      <div class="inline-btns">
+        <button class="btn" id="guess-btn" aria-label="Guess Button">Guess</button>
+        <button class="btn" id="clear" aria-label="Clear Button">Clear</button>
+      </div>
+
+      <h2>Your last guess was</h2>
+
+      <div id="last-guess"></div>
+      <div id="result" aria-label="Feedback"></div>
+
+      <button class="btn" id="reset-btn" aria-label="Reset Button">Reset</button>
+
+    </main>
+  </body>
+<script src="main.js"></script>
+</html>

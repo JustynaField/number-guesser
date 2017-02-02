@@ -1,0 +1,124 @@
+h1, h2, .btn, #input, #last-guess, #result {
+  font-family: "Open Sans";
+  font-weight: 300;
+}
+
+h2, #result {
+    color: #404041;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  background-color: #404041;
+  height: 120px;
+}
+
+.num-color1 {
+  color: #ED458B;
+  font-weight: 700;
+}
+
+.num-color2 {
+  color: #E6E7E8;
+}
+
+h1 {
+  margin: 0;
+  font-size: 56px;
+  padding-top: 18px;
+}
+
+#input {
+  display: block;
+  margin: auto;
+  height: 45px;
+  width: 400px;
+  margin-top: 50px;
+  font-size: 26px;
+  border: solid 2px #e6e7e8;
+  font-weight: 200;
+  letter-spacing: 1.2pt;
+  text-indent: 5px;
+}
+
+.inline-btns {
+ margin: 30px;
+}
+
+.btn {
+  width: 180px;
+  height: 40px;
+  margin: 0 20px;
+  background-color: #929497;
+  border: 1px solid #929497;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 50px;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #eb008b;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+#last-guess {
+  color: #eb008b;
+  height: 300px;
+  width: 400px;
+  font-size: 200px;
+  margin: auto;
+}
+
+#result {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+#reset-btn {
+  width: 300px;
+  font-size: 22px;
+  margin-bottom: 70px;
+}
+
+
+@media screen and (max-width: 550px) {
+
+  .btn {
+    width: 100%;
+    margin: 2% auto;
+    height: 50px;
+  }
+
+  #reset-btn {
+    width: 90%;
+    height: 50px;
+    font-size: 26px;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  header {
+    height: 100px;
+  }
+
+  #input {
+    height: 50px;
+    width: 95%;
+  }
+}
